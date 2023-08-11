@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className={darkMode ? "app dark" : "app"}>
-      <BrowserRouter basename="https://mabozed.github.io/React_Admin_Dashboard/">
+      <BrowserRouter>
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
