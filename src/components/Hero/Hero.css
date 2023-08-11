@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.right  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+}
+.right img {
+    height: 40%;
+}
